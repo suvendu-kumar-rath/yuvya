@@ -26,7 +26,7 @@ const segments = [
       "Faster market expansion",
       "Quality consistency across locations"
     ],
-    cta: "Share your recipes",
+    cta: "Grow with us",
     href: "/brands"
   },
   {
