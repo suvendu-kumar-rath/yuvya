@@ -6,25 +6,25 @@ const team = [
   {
     name: "Budhaditya Bhattacharyya",
     role: "Founder & CEO",
-    background: "20+ years at Amazon, IIT KGP alumnus",
+    background: "20+ years of exp, IIT-IIM alumni",
     email: "budha@yuvya.co.in",
-    linkedin: "#",
-    bio: "Led large-scale automation projects at Amazon, bringing deep expertise in operational systems and robotics."
+    linkedin: "https://www.linkedin.com/in/budhaditya-bhattacharyya-2a50a910/",
+    bio: "Ex-Amazon Europe Head of Product Management, corporate strategy and planning expert"
   },
   {
-    name: "Anshuman Mohanty", 
+    name: "Ayusman Mohanty", 
     role: "Co-Founder & CTO",
-    background: "Amazon engineering veteran, IIT KGP",
+    background: "IITian with 20+ years of experience in Risk Management, Consulting and Operations",
     email: "ayusman@yuvya.co.in",
-    linkedin: "#",
-    bio: "Expert in AI/ML systems and robotic automation, formerly led engineering teams at Amazon's fulfillment centers."
+    linkedin: "https://www.linkedin.com/in/ayusman-mohanty-10859874/",
+    bio: "Financial risk management expert, worked in Consulting and operations"
   }
 ];
 
 const advisors = [
-  "RIIDL (Robotics & AI Incubator)",
-  "i-Hub (IIT Delhi)",
-  "Industry Veterans from F&B",
+  "2nd generation US based Indian restauranter",
+  "Center of Excellence, Advanced Manufacturing, IIT Kharagpur",
+  "25+ years experience Chef working with one of the largest Biryani Brands",
   "Robotics Engineering Advisors"
 ];
 

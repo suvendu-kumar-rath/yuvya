@@ -3,11 +3,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MapPin, ArrowRight, Globe } from "lucide-react";
 
 const expansionPath = [
-  { region: "India", status: "Active", description: "Pilot operations in Bangalore" },
-  { region: "Southeast Asia", status: "2025", description: "Singapore, Thailand expansion" },
-  { region: "Middle East", status: "2026", description: "UAE, Saudi Arabia markets" },
-  { region: "Europe", status: "2027", description: "UK, Germany operations" },
-  { region: "Americas", status: "2028", description: "US, Canada rollout" }
+  { region: "India", status: "Active", description: "Pilot operations in Mumbai" },
+  { region: "3 Indian Cities", status: "2026 End", description: "Expansion to major metropolitan cities across India" },
+  { region: "Americas, Middle East", status: "2027", description: "North American expansion and UAE markets" },
+  { region: "Southeast Asia, Europe", status: "2028", description: "Malaysia, Singapore, Thailand, and European markets" }
 ];
 
 export const GlobalVisionSection = () => {
