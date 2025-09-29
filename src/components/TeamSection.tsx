@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Linkedin, Mail } from "lucide-react";
+import budhaPhoto from "@/assets/budha-photo.jpg";
+import ayusmanPhoto from "@/assets/ayusman-photo.png";
 
 const team = [
   {
@@ -9,7 +11,8 @@ const team = [
     background: "20+ years of exp, IIT-IIM alumni",
     email: "budha@yuvya.co.in",
     linkedin: "https://www.linkedin.com/in/budhaditya-bhattacharyya-2a50a910/",
-    bio: "Ex-Amazon Europe Head of Product Management, corporate strategy and planning expert"
+    bio: "Ex-Amazon Europe Head of Product Management, corporate strategy and planning expert",
+    image: budhaPhoto
   },
   {
     name: "Ayusman Mohanty", 
@@ -17,7 +20,8 @@ const team = [
     background: "IITian with 20+ years of experience in Risk Management, Consulting and Operations",
     email: "ayusman@yuvya.co.in",
     linkedin: "https://www.linkedin.com/in/ayusman-mohanty-10859874/",
-    bio: "Financial risk management expert, worked in Consulting and operations"
+    bio: "Financial risk management expert, worked in Consulting and operations",
+    image: ayusmanPhoto
   }
 ];
 
@@ -37,8 +41,7 @@ export const TeamSection = () => {
             Execution <span className="text-primary">Team</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Amazon veterans with 20+ years of experience in automation and large-scale operations, 
-            combined with deep operator empathy.
+            IIT-IIM alumni with 20+ years of experience in global companies who can deliver results.
           </p>
         </div>
 
@@ -46,10 +49,12 @@ export const TeamSection = () => {
           {team.map((member, index) => (
             <Card key={index} className="feature-card">
               <CardHeader className="text-center">
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-primary-light flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">
-                    {member.name.split(' ').map(n => n[0]).join('')}
-                  </span>
+                <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden">
+                  <img 
+                    src={member.image} 
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <CardTitle className="text-xl">{member.name}</CardTitle>
                 <CardDescription className="text-primary font-medium">

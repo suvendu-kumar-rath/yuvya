@@ -10,6 +10,7 @@ import Operators from "./pages/Operators";
 import Brands from "./pages/Brands";
 import Consumers from "./pages/Consumers";
 import Investors from "./pages/Investors";
+import Team from "./pages/Team";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/brands" element={<Brands />} />
           <Route path="/consumers" element={<Consumers />} />
           <Route path="/investors" element={<Investors />} />
+          <Route path="/team" element={<Team />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
