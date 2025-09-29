@@ -26,7 +26,6 @@ const navigation = [
   { name: "For Operators", href: "/operators" },
   { name: "For Brands", href: "/brands" },
   { name: "For Consumers", href: "/consumers" },
-  { name: "Technology", href: "/technology" },
   { name: "Team", href: "/team" },
   { name: "Investors", href: "/investors" },
   { name: "Resources", href: "/resources" },
@@ -49,7 +48,7 @@ export const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center space-x-8">
-          {navigation.slice(0, 7).map((item) => (
+          {navigation.slice(0, 8).map((item) => (
             <a
               key={item.name}
               href={item.href}
