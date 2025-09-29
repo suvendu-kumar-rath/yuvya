@@ -49,7 +49,7 @@ export const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center space-x-8">
-          {navigation.slice(0, 6).map((item) => (
+          {navigation.slice(0, 7).map((item) => (
             <a
               key={item.name}
               href={item.href}

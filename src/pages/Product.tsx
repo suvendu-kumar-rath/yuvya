@@ -106,6 +106,31 @@ const Product = () => {
           </div>
         </section>
 
+        {/* Demo Video */}
+        <section className="py-24 bg-surface">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-4xl font-bold mb-8">
+                See yKOS <span className="text-primary">in Action</span>
+              </h2>
+              <p className="text-xl text-muted-foreground mb-12">
+                Watch our Kitchen Operating System transform food preparation
+              </p>
+              <div className="aspect-video rounded-xl overflow-hidden shadow-2xl">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/ZOQGDKBtSq8"
+                  title="yKOS Demo Video"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Roadmap */}
         <section className="py-24 bg-surface">
           <div className="container mx-auto px-4">
