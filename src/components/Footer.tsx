@@ -135,11 +135,11 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex items-center space-x-6">
             <span className="text-sm text-muted-foreground">
-              © 2024 Yuvya Technologies. All rights reserved.
+              © 2024 Yuvya India. All rights reserved.
             </span>
             <div className="flex items-center text-sm text-muted-foreground">
               <MapPin className="h-3 w-3 mr-1" />
-              Bangalore, India
+              Mumbai, India
             </div>
           </div>
           <div className="flex space-x-6">

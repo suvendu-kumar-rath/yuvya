@@ -28,21 +28,21 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-primary-foreground" />
               </div>
               <h3 className="font-semibold text-lg mb-2">Email Us</h3>
-              <p className="text-muted-foreground">budha@yuvya.co.in</p>
+              <p className="text-muted-foreground">hello@yuvya.co.in</p>
             </div>
             <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-strong)] transition-all duration-300 hover:-translate-y-1">
               <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center mb-4">
                 <Phone className="w-6 h-6 text-primary-foreground" />
               </div>
               <h3 className="font-semibold text-lg mb-2">Call Us</h3>
-              <p className="text-muted-foreground">+1 (555) 123-4567</p>
+              <p className="text-muted-foreground">+91 89286 08388</p>
             </div>
             <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-strong)] transition-all duration-300 hover:-translate-y-1">
               <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center mb-4">
                 <MapPin className="w-6 h-6 text-primary-foreground" />
               </div>
               <h3 className="font-semibold text-lg mb-2">Visit Us</h3>
-              <p className="text-muted-foreground">123 Business St, Suite 100</p>
+              <p className="text-muted-foreground">Mumbai , India</p>
             </div>
           </div>
         </div>
