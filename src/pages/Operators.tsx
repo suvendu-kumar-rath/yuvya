@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { TrendingDown, Clock, Target, DollarSign, Users, ArrowRight, CheckCircle } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Operators = () => {
   const problems = [
@@ -43,6 +44,8 @@ const Operators = () => {
       metricDesc: "Space reduction vs traditional kitchens"
     }
   ];
+
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-background">
@@ -182,7 +185,7 @@ const Operators = () => {
                 <p className="text-lg text-muted-foreground mb-6">
                   Join the pilot program and start transforming your operations today.
                 </p>
-                <Button size="lg" variant="hero" className="text-lg px-8 py-4 h-auto">
+                <Button size="lg" variant="hero" className="text-lg px-8 py-4 h-auto" onClick={() => navigate('/contact')}>
                   Pilot yKOS Lite
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>

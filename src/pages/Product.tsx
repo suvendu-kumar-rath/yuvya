@@ -3,8 +3,10 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, ArrowRight, Calendar, Cog, Bot } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Product = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -61,7 +63,7 @@ const Product = () => {
                       <span>Built from our proof-of-concept, already tested on 1,000+ orders</span>
                     </li>
                   </ul>
-                  <Button variant="hero" className="w-full">
+                  <Button variant="hero" className="w-full" onClick={() => navigate('/contact')}>
                     Pilot yKOS Lite
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
@@ -96,7 +98,7 @@ const Product = () => {
                       <span>Cloud-based orchestration for multi-site rollout</span>
                     </li>
                   </ul>
-                  <Button variant="cta" className="w-full">
+                  <Button variant="cta" className="w-full" onClick={() => navigate('/contact')}>
                     Join the Waitlist
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>

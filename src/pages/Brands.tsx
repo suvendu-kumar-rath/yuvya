@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Building2, Clock, Users, TrendingUp, CheckCircle, ArrowRight, BarChart3 } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Brands = () => {
   const painPoints = [
@@ -45,6 +46,8 @@ const Brands = () => {
       icon: BarChart3
     }
   ];
+
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-background">
@@ -192,7 +195,7 @@ const Brands = () => {
                 <p className="text-lg text-muted-foreground mb-6">
                   Let's discuss how yKOS can transform your brand expansion strategy and ensure consistent quality at every location.
                 </p>
-                <Button size="lg" variant="hero" className="text-lg px-8 py-4 h-auto">
+                <Button size="lg" variant="hero" className="text-lg px-8 py-4 h-auto" onClick={() => navigate('/contact')}>
                   Share your brand info
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>

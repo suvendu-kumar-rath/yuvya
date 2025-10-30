@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -34,6 +35,7 @@ const navigation = [
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
 //hi
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -61,7 +63,7 @@ export const Header = () => {
 
         {/* CTA Buttons */}
         <div className="hidden md:flex items-center space-x-4">
-          <Button variant="minimal" size="sm">
+          <Button variant="minimal" size="sm" onClick={() => navigate('/contact')}>
             Contact
           </Button>
           <Button variant="hero" size="sm">
@@ -89,7 +91,7 @@ export const Header = () => {
                 </a>
               ))}
               <div className="pt-4 space-y-2">
-                <Button variant="minimal" className="w-full">
+                <Button variant="minimal" className="w-full" onClick={() => { navigate('/contact'); setIsOpen(false); }}>
                   Contact
                 </Button>
                 <Button variant="hero" className="w-full">

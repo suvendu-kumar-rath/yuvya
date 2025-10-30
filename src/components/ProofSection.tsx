@@ -92,7 +92,7 @@ export const ProofSection = () => {
           </div>
         </div>
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <Button variant="hero" size="lg" className="mr-4">
             View Case Studies
             <ArrowRight className="ml-2 h-4 w-4" />
@@ -100,7 +100,7 @@ export const ProofSection = () => {
           <Button variant="minimal" size="lg">
             Download Unit Economics
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
