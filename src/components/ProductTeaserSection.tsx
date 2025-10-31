@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Zap, Cpu } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const ProductTeaserSection = () => {
   return (
@@ -58,9 +59,11 @@ export const ProductTeaserSection = () => {
                   60% faster prep • 99% consistency • 40% less waste
                 </div>
               </div>
-              <Button variant="hero" className="w-full">
-                Pilot yKOS Lite
-                <ArrowRight className="ml-2 h-4 w-4" />
+              <Button variant="hero" className="w-full" asChild>
+                <Link to="/contact">
+                  Pilot yKOS Lite
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
               </Button>
             </CardContent>
           </Card>
@@ -106,18 +109,22 @@ export const ProductTeaserSection = () => {
                   100% consistency • 24/7 operations • Scalable to any cuisine
                 </div>
               </div>
-              <Button variant="minimal" className="w-full">
-                Join Waitlist
-                <ArrowRight className="ml-2 h-4 w-4" />
+              <Button variant="minimal" className="w-full" asChild>
+                <Link to="/contact">
+                  Join Waitlist
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
               </Button>
             </CardContent>
           </Card>
         </div>
 
         <div className="text-center">
-          <Button variant="hero" size="lg">
-            Explore the Full Product
-            <ArrowRight className="ml-2 h-4 w-4" />
+          <Button variant="hero" size="lg" asChild>
+            <Link to="/product">
+              Explore the Full Product
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
           </Button>
         </div>
       </div>
