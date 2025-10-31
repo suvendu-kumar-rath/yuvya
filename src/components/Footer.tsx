@@ -23,9 +23,9 @@ const footerLinks = {
   ],
   resources: [
     { name: "Blog", href: "/resources" },
-    { name: "Whitepapers", href: "/resources/whitepapers" },
-    { name: "Unit Economics", href: "/proof/economics" },
-    { name: "Privacy Policy", href: "/privacy" }
+    // { name: "Whitepapers", href: "/resources/whitepapers" },
+    // { name: "Unit Economics", href: "/proof/economics" },
+    // { name: "Privacy Policy", href: "/privacy" }
   ]
 };
 
@@ -53,7 +53,7 @@ export const Footer = () => {
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="mailto:hello@yuvya.co.in">
+                <a href="mailto:budha@yuvya.co.in">
                   <Mail className="h-4 w-4" />
                 </a>
               </Button>

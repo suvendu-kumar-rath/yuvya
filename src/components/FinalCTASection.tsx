@@ -83,10 +83,10 @@ export const FinalCTASection = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-8">
             <a 
-              href="mailto:hello@yuvya.co.in" 
+              href="mailto:budha@yuvya.co.in" 
               className="text-sm text-primary hover:text-primary-hover"
             >
-              hello@yuvya.co.in
+              budha@yuvya.co.in
             </a>
             <a 
               href="tel:+918928608388" 

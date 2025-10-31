@@ -56,7 +56,7 @@ export const ContactForm = () => {
       const subject = `Contact Form: ${data.queryType.charAt(0).toUpperCase() + data.queryType.slice(1)}`;
       const body = `Name: ${data.name}%0D%0AEmail: ${data.email}%0D%0AContact Number: ${data.contactNumber}%0D%0AQuery Type: ${data.queryType}%0D%0A%0D%0AMessage:%0D%0A${data.message}`;
       
-      const mailtoLink = `mailto:hello@yuvya.co.in?subject=${encodeURIComponent(subject)}&body=${body}`;
+      const mailtoLink = `mailto:budha@yuvya.co.in?subject=${encodeURIComponent(subject)}&body=${body}`;
       
       window.location.href = mailtoLink;
       
