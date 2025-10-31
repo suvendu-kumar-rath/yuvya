@@ -124,10 +124,10 @@ const Proof = () => {
                 <div className="text-3xl font-bold text-primary mb-2">40%</div>
                 <div className="text-sm text-muted-foreground">Prep Time Reduction</div>
               </div>
-              <div className="text-center">
+              {/* <div className="text-center">
                 <div className="text-3xl font-bold text-primary mb-2">25%</div>
                 <div className="text-sm text-muted-foreground">Food Waste Reduction</div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

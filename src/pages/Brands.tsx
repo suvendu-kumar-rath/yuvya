@@ -171,14 +171,14 @@ const Brands = () => {
                       </div>
                     </div>
                     
-                    <div>
-                      <div className="aspect-square bg-muted rounded-lg border-2 border-dashed border-muted-foreground/30 flex items-center justify-center">
-                        <div className="text-center">
+                    {/* <div>
+                      <div className="aspect-square bg-muted rounded-lg border-2 border-dashed border-muted-foreground/30 flex items-center justify-center"> */}
+                        {/* <div className="text-center">
                           <TrendingUp className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
                           <p className="text-lg text-muted-foreground">Cuisine Performance Dashboard</p>
-                        </div>
-                      </div>
-                    </div>
+                        </div> */}
+                      {/* </div>
+                    </div> */}
                   </div>
                 </CardContent>
               </Card>

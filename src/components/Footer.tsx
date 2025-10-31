@@ -7,7 +7,7 @@ const footerLinks = {
     { name: "Overview", href: "/product" },
     { name: "yKOS Lite", href: "/product/lite" },
     { name: "yKOS Full", href: "/product/full" },
-    { name: "Technology", href: "/technology" }
+    // { name: "Technology", href: "/technology" }
   ],
   solutions: [
     { name: "For Operators", href: "/operators" },

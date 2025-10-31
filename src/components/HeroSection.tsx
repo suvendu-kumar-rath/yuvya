@@ -73,7 +73,7 @@ export const HeroSection = () => {
               <div className="text-sm text-muted-foreground">Repeat Rate</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">4.2★</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">4.0★</div>
               <div className="text-sm text-muted-foreground">Rating</div>
             </div>
           </div>
