@@ -104,7 +104,7 @@ const Proof = () => {
             </div>
 
             {/* Placeholder for Kitchen Operations Dashboard */}
-            <div className="max-w-4xl mx-auto mb-12">
+            {/* <div className="max-w-4xl mx-auto mb-12">
               <div className="aspect-video bg-muted rounded-lg border-2 border-dashed border-muted-foreground/30 flex items-center justify-center">
                 <div className="text-center">
                   <Eye className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
@@ -112,10 +112,10 @@ const Proof = () => {
                   <p className="text-sm text-muted-foreground">Live footage and data from our POC kitchen</p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Performance Metrics */}
-            <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary mb-2">98%</div>
                 <div className="text-sm text-muted-foreground">Order Accuracy</div>

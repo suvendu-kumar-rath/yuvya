@@ -13,16 +13,16 @@ const footerLinks = {
     { name: "For Operators", href: "/operators" },
     { name: "For Brands", href: "/brands" },
     { name: "For Consumers", href: "/consumers" },
-    { name: "Case Studies", href: "/proof/case-studies" }
+    // { name: "Case Studies", href: "/proof/case-studies" }
   ],
   company: [
     { name: "About Yuvya", href: "/team" },
-    { name: "Careers", href: "/careers" },
+    //
     { name: "Investors", href: "/investors" },
     { name: "Contact", href: "/contact" }
   ],
   resources: [
-    { name: "Blog", href: "/resources" },
+    { name: "Blog", href: "/brands" },
     // { name: "Whitepapers", href: "/resources/whitepapers" },
     // { name: "Unit Economics", href: "/proof/economics" },
     // { name: "Privacy Policy", href: "/privacy" }

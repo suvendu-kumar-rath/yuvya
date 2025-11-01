@@ -236,7 +236,7 @@ const Investors = () => {
                     </div>
                     <div className="flex justify-between items-center">
                       <span>Food Robotics</span>
-                      <span className="font-semibold">$4.2B by 2025</span>
+                      <span className="font-semibold">$4.0B by 2025</span>
                     </div>
                   </div>
                 </CardContent>

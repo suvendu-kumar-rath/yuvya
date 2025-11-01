@@ -23,7 +23,7 @@ const proofPoints = [
   },
   {
     icon: Star,
-    metric: "4.2★",
+    metric: "4.0★",
     label: "Average Rating",
     description: "Consistent quality drives customer loyalty"
   }
@@ -86,9 +86,9 @@ export const ProofSection = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-muted rounded-xl h-64 flex items-center justify-center">
+            {/* <div className="bg-muted rounded-xl h-64 flex items-center justify-center">
               <span className="text-muted-foreground">Kitchen Operations Dashboard</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
