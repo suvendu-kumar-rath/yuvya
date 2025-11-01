@@ -38,13 +38,13 @@ export const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-            <Button size="lg" variant="hero" className="text-lg px-8 py-4 h-auto" asChild>
+            <Button size="lg" variant="hero" className="text-lg px-8 py-4 h-auto bg-blue-600 hover:bg-blue-700 text-white" asChild>
               <Link to="/operators">
                 For Operators
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button size="lg" variant="cta" className="text-lg px-8 py-4 h-auto" asChild>
+            <Button size="lg" variant="cta" className="text-lg px-8 py-4 h-auto bg-orange-500 hover:bg-orange-600 text-white" asChild>
               <Link to="/brands">
                 For Brands
                 <ArrowRight className="ml-2 h-5 w-5" />
