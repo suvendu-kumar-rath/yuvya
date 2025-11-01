@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import logo from "@/assets/logo.jpeg";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -42,9 +43,11 @@ export const Header = () => {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-sm">Y</span>
-          </div>
+          <img
+            src={logo}
+            alt="Yuvya logo"
+            className="h-8 w-8 object-cover"
+          />
           <span className="font-bold text-xl">Yuvya</span>
         </div>
 
