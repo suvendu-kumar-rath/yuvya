@@ -20,20 +20,14 @@ const footerLinks = {
     //
     { name: "Investors", href: "/investors" },
     { name: "Contact", href: "/contact" }
-   ],
-   resources: [
-  //  // { name: "Blog", href: "/brands" },
-  // //   // { name: "Whitepapers", href: "/resources/whitepapers" },
-  // //   // { name: "Unit Economics", href: "/proof/economics" },
-  // //   // { name: "Privacy Policy", href: "/privacy" }
-    ]
+   ]
 };
 
 export const Footer = () => {
   return (
     <footer className="bg-background border-t border-border">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
@@ -99,23 +93,6 @@ export const Footer = () => {
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
-                <li key={link.name}>
-                  <a 
-                    href={link.href}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Resources */}
-          <div>
-            <h3 className="font-semibold mb-4">Resources</h3>
-            <ul className="space-y-3">
-              {footerLinks.resources.map((link) => (
                 <li key={link.name}>
                   <a 
                     href={link.href}
