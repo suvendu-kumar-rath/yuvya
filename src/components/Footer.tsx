@@ -20,13 +20,13 @@ const footerLinks = {
     //
     { name: "Investors", href: "/investors" },
     { name: "Contact", href: "/contact" }
-  ],
-  resources: [
-    { name: "Blog", href: "/brands" },
-    // { name: "Whitepapers", href: "/resources/whitepapers" },
-    // { name: "Unit Economics", href: "/proof/economics" },
-    // { name: "Privacy Policy", href: "/privacy" }
-  ]
+   ],
+   resources: [
+  //  // { name: "Blog", href: "/brands" },
+  // //   // { name: "Whitepapers", href: "/resources/whitepapers" },
+  // //   // { name: "Unit Economics", href: "/proof/economics" },
+  // //   // { name: "Privacy Policy", href: "/privacy" }
+    ]
 };
 
 export const Footer = () => {

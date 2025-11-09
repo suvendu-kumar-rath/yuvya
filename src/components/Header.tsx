@@ -69,9 +69,9 @@ export const Header = () => {
           <Button variant="minimal" size="sm" onClick={() => navigate('/contact')}>
             Contact
           </Button>
-          <Button variant="hero" size="sm">
+          {/* <Button variant="hero" size="sm">
             Get Started
-          </Button>
+          </Button> */}
         </div>
 
         {/* Mobile Menu */}
